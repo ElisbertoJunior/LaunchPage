@@ -10,7 +10,7 @@
 <br>
 
 # Features 
-- [x] Faz uma contagem regressiva para uma data e hora expecifica
+- [x] Faz uma contagem regressiva para uma data e hora especifica
 - [x] Contem um modal com formulario para inscriçãp do usuário
 
 # DEMO 
