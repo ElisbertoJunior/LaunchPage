@@ -11,7 +11,7 @@
 
 # Features 
 - [x] Faz uma contagem regressiva para uma data e hora especifica
-- [x] Contem um modal com formulario para inscriçãp do usuário
+- [x] Contem um modal com formulario para inscrição do usuário
 
 # DEMO 
 
