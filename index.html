@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Countdown Launch</title>
+</head>
+<body>
+    <main>
+        <img src="./images/top-image.svg" alt="">
+        <section>
+            <div class="counter">
+                <h1>READY TO LAUNCH IN...</h1>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dias</th>
+                            <th></th>
+                            <th>Horas</th>
+                            <th></th>
+                            <th>Minutos</th>
+                            <th></th>
+                            <th>Segundos</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td id="days">00 </td>
+                            <td>:</td>
+                            <td id="hours"> 00 </td>
+                            <td>:</td>
+                            <td id="minutes"> 00 </td>
+                            <td>:</td>
+                            <td id="seconds">00</td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+
+                <small>
+                    Inscreva-se para saber mais sobre o lançamento
+                </small>
+
+                <div class="button">
+                    <button onclick="Modal.open()">Inscreva-se</button>
+                </div>
+            </div>
+            <div class="banner">
+                <img src="./images/rocket.svg" alt="" >
+            </div>
+        </section>
+
+        <footer>
+            <img src="./images/bottom-image.svg" alt="">
+        </footer>
+        
+    </main>
+
+    <div class="modal-overlay ">
+        <div class="modal">
+            <div id="form">
+                <h2>Insira seus dados</h2>
+                <form action="" onsubmit="Form.submit(event)">
+                    <div class="input-group">
+                        <label class="sr-only"
+                            for="description">Nome</label>
+                        <input
+                            type="text"
+                            placeholder="Nome"
+                        />
+
+                        <div class="input-group">
+                            <label class="sr-only"
+                                for="amount">Email</label>
+                            <input
+                                type="text"
+                                placeholder="Email"
+                            />
+                            <small class="help">
+                                Informe seus dados para entrarmos em contato
+                            </small>
+                        </div>
+
+                        
+
+                            <div class="input-group actions">
+                                <a href="#"class=" cancel" onclick="Modal.close()">Cancelar</a>
+                                <button onclick="Modal.close()">Inscrever-se</button>
+                            </div>
+
+                 </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./JS/script.js"></script>
+    
+</body>
+</html>
